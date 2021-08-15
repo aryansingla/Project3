@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0; 
+    top: 0;
+    width: 100%;
+   position: fixed;
+    background-color: white;
+  }
+  #list{
+      list-style: none;
+    display: flex;
+       font-color: black;
+    }
+  a{
+    text-decoration: none;
+      margin: 34px;
+    color: black;
+  }
+  
+  #header-img{
+    width: 20%;
+    margin-top: 0.8em;
+    margin-left: -1em;
+  }
+  #heading{
+     text-align: center;
+    margin-top: 3em;
+    }
+  #email{
+    text-align: center;
+  }
+  #submit{
+    background-color: #F4BB44;
+     text-align: center;
+  }
+  #button:hover{
+    background-color: orange;
+  }
+  @media(min-width: 10px){
+  #points{
+    text-align: center;
+    width:800px;
+    margin: auto;
+    }
+  }
+  #Features-description{
+    line-height: normal;
+    text-align: left;
+    
+  }
+  .content{
+    font-size: 25px;
+    }
+  #youtube-video{
+    margin: 0 0 30% 30%;
+  }
+  #mainBox{
+      display:flex;
+     margin-top: -24em;
+      align-items: center;
+       margin-left:160px;
+     
+    }
+  .box{
+    width:320px;
+    border:1px solid black;
+    text-align : center;
+    border-radius:5px;
+    margin:10px;
+    height: 310px;
+    
+  }
+  .box1{
+    font-size:18px;
+    background-color:lightgray;
+    padding:18px;
+  }
+  .box2{
+    line-height:30px;
+  }
+  .box2 b{
+    font-size:27px;
+    line-height:54px;
+  }
+  
+  #select{
+    background-color: #F4BB44;
+    
+    height: 32px;
+    width: 100px;
+    margin-top: 2em;
+    border: none;
+  }
+  #select:hover{
+    background-color: orange;
+  }
+  #end-details{
+    background-color: lightgray;
+    margin-right:9em;
+     margin-left:9em;
+    height: 2em;
+    margin-top: 2em;
+    
+  }
+  #end-details{
+    height: 58px;
+  }
+  #text{
+   text-align: right; 
+    space-around: 2;
+    
+  }
+  p a{
+    margin: 5px;
+  }
+  
